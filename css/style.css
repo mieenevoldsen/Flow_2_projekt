@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+body{
+    background-color: #FFF4E8;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D4A373;
+    padding: 10px 30px;
+    align-items: center;
+}
+header img{
+    width: 8%;
+}
+
+nav a{
+    padding: 10px 20px;
+    color: #FEFAE0;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    background-color:#e4b07d;
+
+}
+.currentpage{
+    text-decoration: underline;
+}
+/* project box */
+.projects{
+    display: Flex;
+    justify-content: left;
+}
+.project-box{
+    background-color: #D4A373;
+    width: 15%;
+    text-decoration: none;
+    padding: 20px;
+    margin: 15px 0;
+    color: #FEFAE0;
+}
+.project-box img{
+    width: 100%;
+    align-items: center;
+
+}
+.project-box h3{
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.project-box a{
+    text-decoration: none;
+    color:#FEFAE0;
+}
+.project-box a:hover{
+    color: #fcecd0;
+}
+/* kategorier */
+.kategorier{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top:20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+/* Forside */
+.name{
+    font-size: 90px;
+    color: #2E7287;
+    margin-top: 10%;
+    padding-left: 30px;
+}
+.lastname{
+    font-size: 90px;
+    color: #2E7287;
+    padding-left: 200px;
+}
+.forsideimg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
+/* Om mig */
+.om{
+    display: flex;
+    justify-content: left;
+    margin: 25px 60px 0 30px;
+    align-items: flex-end;
+}
+.om-mig-img{
+    width: 32%;
+}
+.om-mig-img img{
+    width: 100%;
+}
+.ommig{
+    width: 30%;
+    margin-bottom: 4px;
+    margin-left: 5%;
+}
+.ommig h1{
+    color: #2E7287;
+    margin-bottom: 20px ;
+}
+.boks{
+    background-color: #D4A373;
+    color: #FEFAE0;
+    padding: 0 20px;
+}
+.ommig p{
+     padding: 10px 0; 
+}
+.bold-text{
+    font-weight: bolder;
+}
+/* Showcase */
+.showcase{
+    padding: 30px;
+    color: #2E7287;
+}
+/* kontakt */
+#kontakt-form{
+    margin: 50px 90px;
+}
+.kontakt{
+    padding: 10px 0;
+    color: #2E7287;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.btn{
+    background-image: radial-gradient( #e4b07d,#D4A373);
+    border: solid #D4A373 1px;
+    padding:5px 10px;
+    color: #FEFAE0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btn:hover{
+    background-image: radial-gradient( #f0b983,#e4ae79); 
+}
+.kontakt input{
+    width: 230px;
+    height: 25px;
+    margin-right: 30px ;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.kontakt textarea{
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 5px; 
+    font-family: sans-serif;
+    padding: 7px 0 0 7px;
+}
+.inline-flex{
+    display: flex;
+}
+/* indepth projekter */
+.indepth{
+    display: flex;
+    justify-content: left;
+    background-color: #D4A373;
+    margin: 0 10px;
+    padding: 10px;
+    color: #FEFAE0;
+    width: 80%;
+}
+.indepth img{
+    width: 100%;
+}
+.indepth div{
+    margin-right: 20px;
+}
+.indepth p{
+    padding-top: 10px;
+}
+.indepth h4{
+    padding-top: 10px;
+}
+.indepth-text{
+    padding-left: 20px;
+}
+
+/* video, andet, kode */
+.coming-soon{
+    text-align: center;
+    height: 380px;
+}
+/* bagning */
+.overskrift{
+    color: #2E7287;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+}
+.kager{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 30px 20px 0;
+}
+.kager img{
+    width: 25%;
+    margin: 20px;
+}
+/* billeder */
+.halvpx{
+    width: 50px;
+}
+.fyrrepx{
+    width: 40px;
+}
